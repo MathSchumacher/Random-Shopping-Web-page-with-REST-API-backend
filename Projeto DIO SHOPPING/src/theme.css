@@ -1,0 +1,41 @@
+/* src/theme.css */
+
+/* Definindo cores principais */
+:root {
+    --primary-color: #1976d2;
+    --secondary-color: #dc004e;
+}
+
+/* Estilo para elementos padrão */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Estilo para botões */
+button {
+    font-family: Arial, sans-serif;
+    border: none;
+    border-radius: 4px;
+    padding: 8px 16px;
+    cursor: pointer;
+}
+
+button.primary {
+    background-color: var(--primary-color);
+    color: white;
+}
+
+button.secondary {
+    background-color: var(--secondary-color);
+    color: white;
+}
+
+/* Estilo para containers e layouts */
+.container {
+    padding: 16px;
+    max-width: 1200px;
+    margin: 0 auto;
+}

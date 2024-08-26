@@ -1,0 +1,16 @@
+/* Garantir que html e body ocupem toda a altura da tela */
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Aplicar imagem de fundo ao body */
+body {
+    background-image: url(https://img.freepik.com/vetores-gratis/fundo-de-chuva-abstrata-pixel_23-2148391495.jpg?t=st=1724264813~exp=1724268413~hmac=dbf2dd3394bca04946c852ca24e91788ac2925fdf1e982bc420e6675b1d9d9c0&w=1800); /* Caminho absoluto a partir da pasta public */
+    background-size: cover; /* Ajusta a imagem para cobrir o elemento */
+    background-position: center; /* Centraliza a imagem */
+    background-repeat: no-repeat; /* Evita que a imagem se repita */
+    background-attachment: fixed; /* Faz a imagem de fundo fixar na tela */
+}
